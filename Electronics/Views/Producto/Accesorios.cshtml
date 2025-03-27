@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Electronics.Models.Productos>
+
+<section style="background-color: #eee;">
+    <div class="text-center container py-5">
+        <h4 class="mt-4 mb-5"><strong>Accesorios</strong></h4>
+        <div class="row">
+            @foreach (var producto in Model)
+            {
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card" style="height: 400px;">
+
+                        <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+                             style="height: 200px; display: flex; align-items: center; justify-content: center; background-color: #fff;"
+                             data-mdb-ripple-color="light">
+
+                            <img src="@Url.Content(producto.Imagen != null
+                                ? producto.Imagen.Ruta
+                                : "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/belt.webp")"
+                                 alt="@producto.Nombre"
+                                 style="max-height: 100%; object-fit: contain;" />
+
+                            <a href="#!">
+                                <div class="mask">
+                                    <div class="d-flex justify-content-start align-items-end h-100">
+                                        <h5><span class="badge bg-primary ms-2">New</span></h5>
+                                    </div>
+                                </div>
+                                <div class="hover-overlay">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="card-body" style="height: 200px;">
+                            <a href="#" class="text-reset">
+                                <h5 class="card-title mb-3">@producto.Nombre</h5>
+                            </a>
+                            <a href="#" class="text-reset">
+                                <p>@producto.Categoria.Nombre</p>
+                            </a>
+                            <h6 class="mb-3">$@producto.Precio</h6>
+                            <button class="btn btn-danger">Añadir al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+

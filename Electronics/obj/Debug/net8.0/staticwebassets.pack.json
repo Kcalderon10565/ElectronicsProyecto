@@ -1,0 +1,381 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Electronics.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Electronics.4843gjhh5a.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\Apple.png",
+      "PackagePath": "staticwebassets\\Imagenes\\Apple.png"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\Circuitos.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Circuitos.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\Honor.png",
+      "PackagePath": "staticwebassets\\Imagenes\\Honor.png"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\Huawei.png",
+      "PackagePath": "staticwebassets\\Imagenes\\Huawei.png"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\LogoElectronics.png",
+      "PackagePath": "staticwebassets\\Imagenes\\LogoElectronics.png"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\Motorola.png",
+      "PackagePath": "staticwebassets\\Imagenes\\Motorola.png"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\Productos\\Apple Watch.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\Apple Watch.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\Productos\\Audifonos apple.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\Audifonos apple.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\Productos\\Blue.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\Blue.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\Productos\\HP monitores.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\HP monitores.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\Productos\\Honor audifonos.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\Honor audifonos.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\Productos\\Honor tablet.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\Honor tablet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\Productos\\Honor.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\Honor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\Productos\\Ipad.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\Ipad.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\Productos\\Iphone.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\Iphone.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\Productos\\MacBook.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\MacBook.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\Productos\\Poco.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\Poco.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\Productos\\SM Samsung.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\SM Samsung.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\Productos\\Samsung audifonos.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\Samsung audifonos.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\Productos\\Samsung monitor.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\Samsung monitor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\Productos\\Victus.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\Victus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\Productos\\Xiaomi watch.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\Xiaomi watch.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\Productos\\cargador hp.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\cargador hp.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\Productos\\samsung tablet.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\samsung tablet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\Productos\\samsung.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Productos\\samsung.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\carrito.png",
+      "PackagePath": "staticwebassets\\Imagenes\\carrito.png"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\perfil.png",
+      "PackagePath": "staticwebassets\\Imagenes\\perfil.png"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\telefono.png",
+      "PackagePath": "staticwebassets\\Imagenes\\telefono.png"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Electronics.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Electronics.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Electronics.props",
+      "PackagePath": "build\\Electronics.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Electronics.props",
+      "PackagePath": "buildMultiTargeting\\Electronics.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Electronics.props",
+      "PackagePath": "buildTransitive\\Electronics.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

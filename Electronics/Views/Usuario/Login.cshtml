@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="container mt-5">
+    <h2>Iniciar sesión</h2>
+    <form method="post" asp-action="Login">
+        <div class="mb-3">
+            <label for="loginEmail" class="form-label">Email o Usuario</label>
+            <input type="email" class="form-control" id="loginEmail" name="Email" placeholder="Ingresa tu email">
+        </div>
+        <div class="mb-3">
+            <label for="loginPassword" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="loginPassword" name="Password" placeholder="Ingresa tu contraseña">
+        </div>
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="rememberMe" name="RememberMe" checked style="background-color:red; border-color:red">
+            <label class="form-check-label" for="rememberMe">Recuérdame</label>
+        </div>
+        <button type="submit" class="btn btn-danger">Ingresar</button>
+        <a asp-controller="Usuario" asp-action="Registro" style="color:red">¿No tienes cuenta? Regístrate</a>
+    </form>
+</div>

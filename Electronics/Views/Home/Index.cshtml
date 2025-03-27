@@ -1,0 +1,70 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <img src="~/imagenes/logoelectronics.png" alt="Logo Electronics" style="height:150px; width:150px;" />
+    <h3><em>Bienvenido a la forma más revolucionaria de realizar tus compras</em></h3>
+    <hr /><br />
+</div>
+
+<div>
+    <h4 style="text-align:left">Explorá por categorías</h4>
+</div>
+<div class="container-fluid">
+    <div class="d-flex flex-wrap gap-2">
+        <a asp-controller="Producto" asp-action="Smartphones" class="btn btn-danger flex-grow-1">Smartphones</a>
+        <a asp-controller="Producto" asp-action="Laptops" class="btn btn-danger flex-grow-1">Laptops</a>
+        <a asp-controller="Producto" asp-action="Smartwatch" class="btn btn-danger flex-grow-1">Smartwatch</a>
+        <a asp-controller="Producto" asp-action="Audifonos" class="btn btn-danger flex-grow-1">Audifonos</a>
+        <a asp-controller="Producto" asp-action="Tablets" class="btn btn-danger flex-grow-1">Tablets</a>
+        <a asp-controller="Producto" asp-action="Monitores" class="btn btn-danger flex-grow-1">Monitores</a>
+        <a asp-controller="Producto" asp-action="Accesorios" class="btn btn-danger flex-grow-1">Accesorios</a>
+    </div>
+    <br /><hr /><br />
+</div>
+
+<br />
+<h4 style="text-align:left">Cómprá aquí las mejores marcas</h4>
+<div class="row row-cols-1 row-cols-md-4 g-4">
+    <div class="col">
+        <div class="card h-100 text-center">
+            <div class="card-img-top d-flex align-items-center justify-content-center" style="height: 150px; overflow: hidden;">
+                <img src="/imagenes/apple.png" alt="Apple" style="max-height: 100%; object-fit: contain;" />
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Apple</h5>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card h-100 text-center">
+            <div class="card-img-top d-flex align-items-center justify-content-center" style="height: 150px; overflow: hidden;">
+                <img src="/imagenes/motorola.png" alt="Motorola" style="max-height: 100%; object-fit: contain;" />
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Motorola</h5>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card h-100 text-center">
+            <div class="card-img-top d-flex align-items-center justify-content-center" style="height: 150px; overflow: hidden;">
+                <img src="/imagenes/huawei.png" alt="Huawei" style="max-height: 100%; object-fit: contain;" />
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Huawei</h5>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card h-100 text-center">
+            <div class="card-img-top d-flex align-items-center justify-content-center" style="height: 150px; overflow: hidden;">
+                <img src="/imagenes/honor.png" alt="Honor" style="max-height: 100%; object-fit: contain;" />
+            </div>
+            <div class="card-body"> 
+                <h5 class="card-title">Honor</h5>
+            </div>
+        </div>
+    </div>
+</div>
