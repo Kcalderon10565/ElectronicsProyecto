@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fz/pBHhvcf2el3a8PyCeIdoMV+GcEPyXTljAFPpawHQ=",
+  "Hash": "0Ubh6UsNt7dfgiV0wVB7EaTdk7XJldgcTjh/47nWHy4=",
   "Source": "Electronics",
   "BasePath": "_content/Electronics",
   "Mode": "Default",
@@ -204,6 +204,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Imagenes\\Huawei.png"
+    },
+    {
+      "Identity": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\Iphone.jpg",
+      "SourceId": "Electronics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\",
+      "BasePath": "_content/Electronics",
+      "RelativePath": "Imagenes/Iphone#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "w6k293lloo",
+      "Integrity": "SAgIGJ/KZdztuhrfp05Kc4UGDmkxjHF3Nkob5AipYPQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagenes\\Iphone.jpg"
     },
     {
       "Identity": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\LogoElectronics.png",
@@ -2643,6 +2664,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-dF7nMTRvlY29tBqfoKk8pqSjY5XY78oy6GbYlbb38c8="
+        }
+      ]
+    },
+    {
+      "Route": "Imagenes/Iphone.jpg",
+      "AssetFile": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\Iphone.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "67731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SAgIGJ/KZdztuhrfp05Kc4UGDmkxjHF3Nkob5AipYPQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 16:29:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SAgIGJ/KZdztuhrfp05Kc4UGDmkxjHF3Nkob5AipYPQ="
+        }
+      ]
+    },
+    {
+      "Route": "Imagenes/Iphone.w6k293lloo.jpg",
+      "AssetFile": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\Iphone.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "67731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SAgIGJ/KZdztuhrfp05Kc4UGDmkxjHF3Nkob5AipYPQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 16:29:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w6k293lloo"
+        },
+        {
+          "Name": "label",
+          "Value": "Imagenes/Iphone.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SAgIGJ/KZdztuhrfp05Kc4UGDmkxjHF3Nkob5AipYPQ="
         }
       ]
     },

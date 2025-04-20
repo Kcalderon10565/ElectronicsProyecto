@@ -1,87 +1,76 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using System;
+using System.Linq;
+using Electronics.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Electronics.Controllers
 {
     public class UsuarioController : Controller
     {
-        // GET: UsuarioController
-        public ActionResult Login()
+        private readonly ElectronicsContext _context;
+        public UsuarioController(ElectronicsContext context)
         {
+            _context = context;
+        }
+
+        [HttpGet]
+        public IActionResult Login()
+        {
+            // Si ya hay sesión iniciada, redirigimos
+            if (Request.Cookies.ContainsKey("NombreUsuario"))
+                return RedirectToAction("Index", "Home");
+
             return View();
         }
 
-        // GET: UsuarioController/Details/5
-        public ActionResult Details(int id)
-        {
-            return View();
-        }
-
-        // GET: UsuarioController/Create
-        public ActionResult Registro()
-        {
-            return View();
-        }
-        public ActionResult Perfil()
-        {
-            return View();
-        }
-
-        // POST: UsuarioController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public IActionResult Login(string Email, string Password)
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
+            var usuario = _context.Usuarios
+                .FirstOrDefault(u => u.Correo == Email && u.Contrasena == Password);
 
-        // GET: UsuarioController/Edit/5
-        public ActionResult Edit(int id)
-        {
+            if (usuario != null)
+            {
+                var opciones = new CookieOptions
+                {
+                    HttpOnly = true,
+                    Expires = DateTimeOffset.UtcNow.AddHours(2)
+                };
+
+                Response.Cookies.Append("IdUsuario", usuario.IdUsuario.ToString(), opciones);
+                Response.Cookies.Append("NombreUsuario", usuario.Nombre, opciones);
+                Response.Cookies.Append("IdRol", usuario.IdRol.ToString(), opciones);
+
+                return RedirectToAction("Index", "Home");
+            }
+
+            ViewBag.Error = "Credenciales inválidas";
             return View();
         }
 
-        // POST: UsuarioController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        // GET: /Usuario/Logout
+        public IActionResult Logout()
         {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            Response.Cookies.Delete("IdUsuario");
+            Response.Cookies.Delete("NombreUsuario");
+            Response.Cookies.Delete("IdRol");
+            return RedirectToAction("Index", "Home");
         }
 
-        // GET: UsuarioController/Delete/5
-        public ActionResult Delete(int id)
+        // GET: /Usuario/Perfil
+        public IActionResult Perfil()
         {
-            return View();
-        }
+            if (!Request.Cookies.ContainsKey("IdUsuario"))
+                return RedirectToAction("Login");
 
-        // POST: UsuarioController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
+            var id = int.Parse(Request.Cookies["IdUsuario"]);
+            var usuario = _context.Usuarios.FirstOrDefault(u => u.IdUsuario == id);
+            if (usuario == null)
+                return RedirectToAction("Login");
+
+            return View(usuario);
         }
     }
 }

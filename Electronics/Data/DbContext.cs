@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System.Data;
+using Microsoft.EntityFrameworkCore;
 
 
 namespace Electronics.Models
@@ -8,9 +9,13 @@ namespace Electronics.Models
         public ElectronicsContext(DbContextOptions<ElectronicsContext> options)
             : base(options)
         { }
+        public DbSet<Rol> Rol { get; set; }
+
+        public DbSet<Usuario> Usuarios { get; set; }
 
         public DbSet<Productos> Productos { get; set; }
         public DbSet<Categorias> Categorias { get; set; }
+        public DbSet<Imagenes> Imagenes { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

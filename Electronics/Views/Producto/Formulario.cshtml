@@ -1,0 +1,66 @@
+﻿@model Electronics.Models.Productos
+@{
+    var esEdicion = ViewBag.Edicion == true;
+    ViewData["Title"] = esEdicion ? "Editar Producto" : "Agregar Producto";
+}
+
+<div class="container mt-4">
+    <h2>@ViewData["Title"]</h2>
+
+    <form asp-action="@(esEdicion ? "Editar" : "Crear")" method="post" enctype="multipart/form-data">
+        @Html.AntiForgeryToken()
+        <div asp-validation-summary="All" class="text-danger"></div>
+
+        <input type="hidden" asp-for="IdProducto" />
+
+        <div class="mb-3">
+            <label class="form-label">Nombre</label>
+            <input asp-for="Nombre" class="form-control" />
+            <span asp-validation-for="Nombre" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Descripción</label>
+            <textarea asp-for="Descripcion" class="form-control"></textarea>
+            <span asp-validation-for="Descripcion" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Precio</label>
+            <input asp-for="Precio" type="number" step="0.01" class="form-control" />
+            <span asp-validation-for="Precio" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Stock</label>
+            <input asp-for="Stock" type="number" class="form-control" />
+            <span asp-validation-for="Stock" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Imagen</label>
+            <input type="file" name="imagenArchivo" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Categoría</label>
+            <select asp-for="IdCategoria" asp-items="ViewBag.Categorias" class="form-control"></select>
+            <span asp-validation-for="IdCategoria" class="text-danger"></span>
+        </div>
+
+        @if (esEdicion && Model.Imagen?.Ruta != null)
+        {
+            <div class="mb-3">
+                <label class="form-label">Imagen actual</label><br />
+                <img src="@Model.Imagen.Ruta" alt="Imagen actual" width="150" />
+            </div>
+        }
+
+        <button type="submit" class="btn btn-primary">@ViewData["Title"]</button>
+        <a asp-action="Catalogo" class="btn btn-secondary ms-2">Cancelar</a>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

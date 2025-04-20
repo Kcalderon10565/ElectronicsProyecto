@@ -96,6 +96,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-dF7nMTRvlY29tBqfoKk8pqSjY5XY78oy6GbYlbb38c8="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"89574"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022dF7nMTRvlY29tBqfoKk8pqSjY5XY78oy6GbYlbb38c8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Mar 2025 23:37:13 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Electronics/Imagenes/Iphone.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagenes\Iphone.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-SAgIGJ/KZdztuhrfp05Kc4UGDmkxjHF3Nkob5AipYPQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"67731"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022SAgIGJ/KZdztuhrfp05Kc4UGDmkxjHF3Nkob5AipYPQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 20 Apr 2025 16:29:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Electronics/Imagenes/Iphone.w6k293lloo.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagenes\Iphone.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"w6k293lloo"},{"Name":"integrity","Value":"sha256-SAgIGJ/KZdztuhrfp05Kc4UGDmkxjHF3Nkob5AipYPQ="},{"Name":"label","Value":"_content/Electronics/Imagenes/Iphone.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"67731"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022SAgIGJ/KZdztuhrfp05Kc4UGDmkxjHF3Nkob5AipYPQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 20 Apr 2025 16:29:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Electronics/Imagenes/LogoElectronics.ligaz0x8on.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagenes\LogoElectronics.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

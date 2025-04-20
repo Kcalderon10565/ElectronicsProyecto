@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\Imagenes\\Huawei.png"
     },
     {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\Iphone.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Iphone.jpg"
+    },
+    {
       "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\LogoElectronics.png",
       "PackagePath": "staticwebassets\\Imagenes\\LogoElectronics.png"
     },

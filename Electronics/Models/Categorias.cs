@@ -8,10 +8,11 @@ namespace Electronics.Models
         public int IdCategoria { get; set; }
 
         [Required]
-        [StringLength(50)]
+        [StringLength(100)]
         public string Nombre { get; set; }
 
-
-        public ICollection<Productos> Productos { get; set; }
+        // Relación inversa con Productos
+        public virtual ICollection<Productos> Productos { get; set; }
     }
 }
+

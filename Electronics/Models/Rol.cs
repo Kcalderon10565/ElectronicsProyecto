@@ -2,13 +2,14 @@
 
 namespace Electronics.Models
 {
-    public class Imagenes
+    public class Rol
     {
         [Key]
-        public int Id { get; set; }
+        public int IdRol { get; set; }
 
+        [Required]
+        [StringLength(50)]
         public string Nombre { get; set; }
-
-        public string Ruta { get; set; }
     }
 }
+//Cambios

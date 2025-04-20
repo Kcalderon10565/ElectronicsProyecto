@@ -5,6 +5,7 @@ wwwroot\Imagenes\carrito.png
 wwwroot\Imagenes\Circuitos.jpg
 wwwroot\Imagenes\Honor.png
 wwwroot\Imagenes\Huawei.png
+wwwroot\Imagenes\Iphone.jpg
 wwwroot\Imagenes\LogoElectronics.png
 wwwroot\Imagenes\Motorola.png
 wwwroot\Imagenes\perfil.png
