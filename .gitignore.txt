@@ -1,2 +1,6 @@
-# Ignorar cache de Visual Studio
+# Visual Studio
 .vs/
+
+# Build results
+**/bin/
+**/obj/
