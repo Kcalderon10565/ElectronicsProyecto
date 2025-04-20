@@ -13,21 +13,19 @@ namespace Electronics.Controllers
         public ProductoController(ElectronicsContext context)
             => _context = context;
 
-        // método auxiliar para la query base
+
         private IQueryable<Productos> QueryBase()
             => _context.Productos
                        .Include(p => p.Categoria)
                        .Include(p => p.Imagen);
 
-        // método auxiliar que filtra por nombre de categoría
-        // y devuelve la vista cuyo nombre coincide con viewName
+
         private IActionResult FiltrarYMostrar(string nombreCategoria, string viewName)
         {
             var lista = QueryBase()
                 .Where(p => p.Categoria.Nombre == nombreCategoria)
                 .ToList();
 
-            // reconstruye tu lógica de EsAdmin
             var idRol = HttpContext.Request.Cookies.ContainsKey("IdRol")
                 ? int.Parse(HttpContext.Request.Cookies["IdRol"])
                 : (int?)null;
@@ -37,7 +35,7 @@ namespace Electronics.Controllers
             return View(viewName, lista);
         }
 
-        // ahora, para cada categoría basta con un método
+
         public IActionResult Smartphones() => FiltrarYMostrar("Smartphones", "Smartphones");
         public IActionResult Laptops() => FiltrarYMostrar("Laptops", "Laptops");
         public IActionResult Smartwatch() => FiltrarYMostrar("Smartwatch", "Smartwatch");
@@ -134,7 +132,7 @@ namespace Electronics.Controllers
                 if (productoExistente == null)
                     return NotFound();
 
-                // Actualizar datos básicos
+                // Actualizar datos
                 productoExistente.Nombre = producto.Nombre;
                 productoExistente.Descripcion = producto.Descripcion;
                 productoExistente.Precio = producto.Precio;
@@ -186,28 +184,24 @@ namespace Electronics.Controllers
         // GET: /Producto/Eliminar/5
 public IActionResult Eliminar(int id)
         {
-            // 1) Busca el producto (incluyendo la imagen si quieres borrarla también)
+
             var producto = _context.Productos
                             .Include(p => p.Imagen)
                             .FirstOrDefault(p => p.IdProducto == id);
             if (producto == null) return NotFound();
 
-            // 2) (Opcional) Borra el archivo físico de la imagen
+
             if (producto.Imagen != null)
             {
                 var rutaFisica = Path.Combine("wwwroot", producto.Imagen.Ruta.TrimStart('/'));
                 if (System.IO.File.Exists(rutaFisica))
                     System.IO.File.Delete(rutaFisica);
-
-                // y elimina el registro de imagen
                 _context.Imagenes.Remove(producto.Imagen);
             }
 
-            // 3) Borra el producto
             _context.Productos.Remove(producto);
             _context.SaveChanges();
 
-            // 4) Vuelve al catálogo
             return RedirectToAction("Catalogo");
         }
 

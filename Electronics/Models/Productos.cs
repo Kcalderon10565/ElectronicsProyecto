@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;   // <<-- para ValidateNever
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;   
 
 namespace Electronics.Models
 {
@@ -32,7 +32,6 @@ namespace Electronics.Models
         public virtual Categorias Categoria { get; set; }
 
 
-        // este es el FK que apunta a tu tabla de imágenes
         public int? IdImagen { get; set; }
 
         [ValidateNever]

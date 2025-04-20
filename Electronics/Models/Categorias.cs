@@ -11,7 +11,6 @@ namespace Electronics.Models
         [StringLength(100)]
         public string Nombre { get; set; }
 
-        // Relación inversa con Productos
         public virtual ICollection<Productos> Productos { get; set; }
     }
 }

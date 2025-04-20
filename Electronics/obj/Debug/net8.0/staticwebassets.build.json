@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0Ubh6UsNt7dfgiV0wVB7EaTdk7XJldgcTjh/47nWHy4=",
+  "Hash": "rwgoD8J72PdYajEevwDQ50IQFqsA70F6tASyZrga5jE=",
   "Source": "Electronics",
   "BasePath": "_content/Electronics",
   "Mode": "Default",
@@ -99,6 +99,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\fotosPerfil\\2_Iphone.jpg",
+      "SourceId": "Electronics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\",
+      "BasePath": "_content/Electronics",
+      "RelativePath": "fotosPerfil/2_Iphone#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "w6k293lloo",
+      "Integrity": "SAgIGJ/KZdztuhrfp05Kc4UGDmkxjHF3Nkob5AipYPQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fotosPerfil\\2_Iphone.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\fotosPerfil\\2_macbook.jpg",
+      "SourceId": "Electronics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\",
+      "BasePath": "_content/Electronics",
+      "RelativePath": "fotosPerfil/2_macbook#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qwdsm9jl4h",
+      "Integrity": "aj8Jcv6G5lx6Cqm4XTMaihLoTMQba9mvfboee+PxvtI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fotosPerfil\\2_macbook.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\fotosPerfil\\2_Tablet.jpg",
+      "SourceId": "Electronics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\",
+      "BasePath": "_content/Electronics",
+      "RelativePath": "fotosPerfil/2_Tablet#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2drcjslgzl",
+      "Integrity": "hkgBuZ2nVtkVhUYHMg4PRzmnwxspF32tZnTAZYTaPFY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fotosPerfil\\2_Tablet.jpg"
     },
     {
       "Identity": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\Apple.png",
@@ -687,6 +750,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Imagenes\\Productos\\Xiaomi watch.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\Tablet.jpg",
+      "SourceId": "Electronics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\",
+      "BasePath": "_content/Electronics",
+      "RelativePath": "Imagenes/Tablet#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2drcjslgzl",
+      "Integrity": "hkgBuZ2nVtkVhUYHMg4PRzmnwxspF32tZnTAZYTaPFY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imagenes\\Tablet.jpg"
     },
     {
       "Identity": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\telefono.png",
@@ -2258,6 +2342,252 @@
       ]
     },
     {
+      "Route": "fotosPerfil/2_Iphone.jpg",
+      "AssetFile": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\fotosPerfil\\2_Iphone.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "67731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SAgIGJ/KZdztuhrfp05Kc4UGDmkxjHF3Nkob5AipYPQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 18:21:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SAgIGJ/KZdztuhrfp05Kc4UGDmkxjHF3Nkob5AipYPQ="
+        }
+      ]
+    },
+    {
+      "Route": "fotosPerfil/2_Iphone.w6k293lloo.jpg",
+      "AssetFile": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\fotosPerfil\\2_Iphone.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "67731"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SAgIGJ/KZdztuhrfp05Kc4UGDmkxjHF3Nkob5AipYPQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 18:21:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w6k293lloo"
+        },
+        {
+          "Name": "label",
+          "Value": "fotosPerfil/2_Iphone.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SAgIGJ/KZdztuhrfp05Kc4UGDmkxjHF3Nkob5AipYPQ="
+        }
+      ]
+    },
+    {
+      "Route": "fotosPerfil/2_macbook.jpg",
+      "AssetFile": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\fotosPerfil\\2_macbook.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32402"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aj8Jcv6G5lx6Cqm4XTMaihLoTMQba9mvfboee+PxvtI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 18:22:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aj8Jcv6G5lx6Cqm4XTMaihLoTMQba9mvfboee+PxvtI="
+        }
+      ]
+    },
+    {
+      "Route": "fotosPerfil/2_macbook.qwdsm9jl4h.jpg",
+      "AssetFile": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\fotosPerfil\\2_macbook.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32402"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aj8Jcv6G5lx6Cqm4XTMaihLoTMQba9mvfboee+PxvtI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 18:22:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qwdsm9jl4h"
+        },
+        {
+          "Name": "label",
+          "Value": "fotosPerfil/2_macbook.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aj8Jcv6G5lx6Cqm4XTMaihLoTMQba9mvfboee+PxvtI="
+        }
+      ]
+    },
+    {
+      "Route": "fotosPerfil/2_Tablet.2drcjslgzl.jpg",
+      "AssetFile": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\fotosPerfil\\2_Tablet.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "148459"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hkgBuZ2nVtkVhUYHMg4PRzmnwxspF32tZnTAZYTaPFY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 18:28:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2drcjslgzl"
+        },
+        {
+          "Name": "label",
+          "Value": "fotosPerfil/2_Tablet.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hkgBuZ2nVtkVhUYHMg4PRzmnwxspF32tZnTAZYTaPFY="
+        }
+      ]
+    },
+    {
+      "Route": "fotosPerfil/2_Tablet.jpg",
+      "AssetFile": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\fotosPerfil\\2_Tablet.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "148459"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hkgBuZ2nVtkVhUYHMg4PRzmnwxspF32tZnTAZYTaPFY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 18:28:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hkgBuZ2nVtkVhUYHMg4PRzmnwxspF32tZnTAZYTaPFY="
+        }
+      ]
+    },
+    {
       "Route": "Imagenes/Apple.2hl3hf0qf5.png",
       "AssetFile": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\Apple.png",
       "Selectors": [],
@@ -2690,7 +3020,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Apr 2025 16:29:48 GMT"
+          "Value": "Sun, 20 Apr 2025 18:30:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2727,7 +3057,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 20 Apr 2025 16:29:48 GMT"
+          "Value": "Sun, 20 Apr 2025 18:30:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4550,6 +4880,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-0QXAYEArxWnM6X/k4xjt4JulGceX8BBRx8rtHdXLvNY="
+        }
+      ]
+    },
+    {
+      "Route": "Imagenes/Tablet.2drcjslgzl.jpg",
+      "AssetFile": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\Tablet.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "148459"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hkgBuZ2nVtkVhUYHMg4PRzmnwxspF32tZnTAZYTaPFY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 16:48:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2drcjslgzl"
+        },
+        {
+          "Name": "label",
+          "Value": "Imagenes/Tablet.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hkgBuZ2nVtkVhUYHMg4PRzmnwxspF32tZnTAZYTaPFY="
+        }
+      ]
+    },
+    {
+      "Route": "Imagenes/Tablet.jpg",
+      "AssetFile": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\Tablet.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "148459"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hkgBuZ2nVtkVhUYHMg4PRzmnwxspF32tZnTAZYTaPFY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 16:48:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hkgBuZ2nVtkVhUYHMg4PRzmnwxspF32tZnTAZYTaPFY="
         }
       ]
     },

@@ -109,6 +109,10 @@
       "PackagePath": "staticwebassets\\Imagenes\\Productos\\samsung.jpg"
     },
     {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\Tablet.jpg",
+      "PackagePath": "staticwebassets\\Imagenes\\Tablet.jpg"
+    },
+    {
       "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\Imagenes\\carrito.png",
       "PackagePath": "staticwebassets\\Imagenes\\carrito.png"
     },
@@ -127,6 +131,18 @@
     {
       "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\fotosPerfil\\2_Iphone.jpg",
+      "PackagePath": "staticwebassets\\fotosPerfil\\2_Iphone.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\fotosPerfil\\2_Tablet.jpg",
+      "PackagePath": "staticwebassets\\fotosPerfil\\2_Tablet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\fotosPerfil\\2_macbook.jpg",
+      "PackagePath": "staticwebassets\\fotosPerfil\\2_macbook.jpg"
     },
     {
       "Id": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\wwwroot\\js\\site.js",

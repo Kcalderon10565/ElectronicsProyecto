@@ -12,4 +12,3 @@ namespace Electronics.Models
         public string Nombre { get; set; }
     }
 }
-//Cambios

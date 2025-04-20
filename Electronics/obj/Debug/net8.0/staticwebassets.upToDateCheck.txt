@@ -1,5 +1,8 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\fotosPerfil\2_Iphone.jpg
+wwwroot\fotosPerfil\2_macbook.jpg
+wwwroot\fotosPerfil\2_Tablet.jpg
 wwwroot\Imagenes\Apple.png
 wwwroot\Imagenes\carrito.png
 wwwroot\Imagenes\Circuitos.jpg
@@ -28,6 +31,7 @@ wwwroot\Imagenes\Productos\samsung.jpg
 wwwroot\Imagenes\Productos\SM Samsung.jpg
 wwwroot\Imagenes\Productos\Victus.jpg
 wwwroot\Imagenes\Productos\Xiaomi watch.jpg
+wwwroot\Imagenes\Tablet.jpg
 wwwroot\Imagenes\telefono.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

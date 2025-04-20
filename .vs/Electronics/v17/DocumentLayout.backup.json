@@ -3,60 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\kenca\\source\\repos\\Electronics\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|c:\\users\\kenca\\source\\repos\\electronics\\electronics\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|solutionrelative:electronics\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|c:\\users\\kenca\\source\\repos\\electronics\\electronics\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|solutionrelative:electronics\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|c:\\users\\kenca\\source\\repos\\electronics\\electronics\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|solutionrelative:electronics\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|c:\\users\\kenca\\source\\repos\\electronics\\electronics\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|solutionrelative:electronics\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|c:\\users\\kenca\\source\\repos\\electronics\\electronics\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|solutionrelative:electronics\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|c:\\users\\kenca\\source\\repos\\electronics\\electronics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|solutionrelative:electronics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|c:\\users\\kenca\\source\\repos\\electronics\\electronics\\models\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|solutionrelative:electronics\\models\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|c:\\users\\kenca\\source\\repos\\electronics\\electronics\\views\\producto\\formulario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|solutionrelative:electronics\\views\\producto\\formulario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|c:\\users\\kenca\\source\\repos\\electronics\\electronics\\views\\producto\\catalogo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|solutionrelative:electronics\\views\\producto\\catalogo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|c:\\users\\kenca\\source\\repos\\electronics\\electronics\\views\\carrito\\agregar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|solutionrelative:electronics\\views\\carrito\\agregar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|c:\\users\\kenca\\source\\repos\\electronics\\electronics\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|solutionrelative:electronics\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|c:\\users\\kenca\\source\\repos\\electronics\\electronics\\models\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|solutionrelative:electronics\\models\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|c:\\users\\kenca\\source\\repos\\electronics\\electronics\\models\\imagenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|solutionrelative:electronics\\models\\imagenes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|c:\\users\\kenca\\source\\repos\\electronics\\electronics\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|solutionrelative:electronics\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|c:\\users\\kenca\\source\\repos\\electronics\\electronics\\models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|solutionrelative:electronics\\models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|c:\\users\\kenca\\source\\repos\\electronics\\electronics\\views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|solutionrelative:electronics\\views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|c:\\users\\kenca\\source\\repos\\electronics\\electronics\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|solutionrelative:electronics\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,185 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Imagenes.cs",
-              "DocumentMoniker": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Models\\Imagenes.cs",
-              "RelativeDocumentMoniker": "Electronics\\Models\\Imagenes.cs",
-              "ToolTip": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Models\\Imagenes.cs",
-              "RelativeToolTip": "Electronics\\Models\\Imagenes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T22:24:51.799Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Electronics\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Views\\Shared\\_Layout.cshtml*",
-              "RelativeToolTip": "Electronics\\Views\\Shared\\_Layout.cshtml*",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAcwGsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-20T16:43:28.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Electronics\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Electronics\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-20T16:31:11.978Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Formulario.cshtml",
-              "DocumentMoniker": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Views\\Producto\\Formulario.cshtml",
-              "RelativeDocumentMoniker": "Electronics\\Views\\Producto\\Formulario.cshtml",
-              "ToolTip": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Views\\Producto\\Formulario.cshtml",
-              "RelativeToolTip": "Electronics\\Views\\Producto\\Formulario.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-14T22:06:20.985Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Rol.cs",
-              "DocumentMoniker": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Models\\Rol.cs",
-              "RelativeDocumentMoniker": "Electronics\\Models\\Rol.cs",
-              "ToolTip": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Models\\Rol.cs",
-              "RelativeToolTip": "Electronics\\Models\\Rol.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Title": "CarritoController.cs",
+              "DocumentMoniker": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Controllers\\CarritoController.cs",
+              "RelativeDocumentMoniker": "Electronics\\Controllers\\CarritoController.cs",
+              "ToolTip": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Controllers\\CarritoController.cs",
+              "RelativeToolTip": "Electronics\\Controllers\\CarritoController.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAAFMAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T21:02:06.46Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DbContext.cs",
-              "DocumentMoniker": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Data\\DbContext.cs",
-              "RelativeDocumentMoniker": "Electronics\\Data\\DbContext.cs",
-              "ToolTip": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Data\\DbContext.cs",
-              "RelativeToolTip": "Electronics\\Data\\DbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T20:51:26.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "Electronics\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Models\\Usuario.cs",
-              "RelativeToolTip": "Electronics\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T20:50:04.074Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductoController.cs",
-              "DocumentMoniker": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Controllers\\ProductoController.cs",
-              "RelativeDocumentMoniker": "Electronics\\Controllers\\ProductoController.cs",
-              "ToolTip": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Controllers\\ProductoController.cs",
-              "RelativeToolTip": "Electronics\\Controllers\\ProductoController.cs",
-              "ViewState": "AgIAAMIAAAAAAAAAAAAMwLkAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T20:41:47.88Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Catalogo.cshtml",
-              "DocumentMoniker": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Views\\Producto\\Catalogo.cshtml",
-              "RelativeDocumentMoniker": "Electronics\\Views\\Producto\\Catalogo.cshtml",
-              "ToolTip": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Views\\Producto\\Catalogo.cshtml",
-              "RelativeToolTip": "Electronics\\Views\\Producto\\Catalogo.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-14T20:41:13.123Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Productos.cs",
-              "DocumentMoniker": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Models\\Productos.cs",
-              "RelativeDocumentMoniker": "Electronics\\Models\\Productos.cs",
-              "ToolTip": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Models\\Productos.cs",
-              "RelativeToolTip": "Electronics\\Models\\Productos.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAcwCoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T20:40:41.728Z",
+              "WhenOpened": "2025-04-20T18:54:42.873Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "Electronics\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Controllers\\UsuarioController.cs*",
-              "RelativeToolTip": "Electronics\\Controllers\\UsuarioController.cs*",
-              "ViewState": "AgIAADgAAAAAAAAAAAAcwEwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T20:40:09.724Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Electronics\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Electronics\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADsAAAAAAAAAAAAMwEUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-20T18:54:20.735Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Categorias.cs",
-              "DocumentMoniker": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Models\\Categorias.cs",
-              "RelativeDocumentMoniker": "Electronics\\Models\\Categorias.cs",
-              "ToolTip": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Models\\Categorias.cs",
-              "RelativeToolTip": "Electronics\\Models\\Categorias.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Program.cs",
+              "RelativeDocumentMoniker": "Electronics\\Program.cs",
+              "ToolTip": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Program.cs",
+              "RelativeToolTip": "Electronics\\Program.cs",
+              "ViewState": "AgIAABcAAAAAuF9OfOEUwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T22:43:11.005Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Agregar.cshtml",
-              "DocumentMoniker": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Views\\Carrito\\Agregar.cshtml",
-              "RelativeDocumentMoniker": "Electronics\\Views\\Carrito\\Agregar.cshtml",
-              "ToolTip": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Views\\Carrito\\Agregar.cshtml",
-              "RelativeToolTip": "Electronics\\Views\\Carrito\\Agregar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-20T15:56:10.841Z",
+              "WhenOpened": "2025-04-20T18:53:53.886Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Views\\Usuario\\Login.cshtml",
-              "RelativeDocumentMoniker": "Electronics\\Views\\Usuario\\Login.cshtml",
-              "ToolTip": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Views\\Usuario\\Login.cshtml",
-              "RelativeToolTip": "Electronics\\Views\\Usuario\\Login.cshtml",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\appsettings.json",
+              "RelativeDocumentMoniker": "Electronics\\appsettings.json",
+              "ToolTip": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\appsettings.json",
+              "RelativeToolTip": "Electronics\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-14T20:28:54.234Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-20T18:53:51.093Z",
+              "EditorCaption": ""
             }
           ]
         }

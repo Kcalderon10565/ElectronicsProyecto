@@ -1,0 +1,82 @@
+﻿@model Electronics.Models.RegisterViewModel
+@{
+    ViewData["Title"] = "Registro";
+}
+
+<section class="text-center">
+    <div class="p-5 bg-image"
+         style="background-image: url('/imagenes/circuitos.jpg'); height: 300px;">
+    </div>
+
+    <div class="card mx-4 mx-md-5 shadow-5-strong bg-body-tertiary"
+         style="margin-top: -100px; backdrop-filter: blur(30px);">
+        <div class="card-body py-5 px-md-5">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="fw-bold mb-5">Regístrate</h2>
+
+                    <form asp-action="Register" method="post">
+                        @Html.AntiForgeryToken()
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-4"></div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <div class="form-outline">
+                                    <input asp-for="Nombre" class="form-control" />
+                                    <label asp-for="Nombre" class="form-label"></label>
+                                    <span asp-validation-for="Nombre" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <div class="form-outline">
+                                    <input asp-for="PrimerApellido" class="form-control" />
+                                    <label asp-for="PrimerApellido" class="form-label"></label>
+                                    <span asp-validation-for="PrimerApellido" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <div class="form-outline">
+                                    <input asp-for="SegundoApellido" class="form-control" />
+                                    <label asp-for="SegundoApellido" class="form-label"></label>
+                                    <span asp-validation-for="SegundoApellido" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <div class="form-outline">
+                                    <input asp-for="Correo" class="form-control" />
+                                    <label asp-for="Correo" class="form-label"></label>
+                                    <span asp-validation-for="Correo" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-outline mb-4">
+                            <input asp-for="Contrasena" type="password" class="form-control" />
+                            <label asp-for="Contrasena" class="form-label"></label>
+                            <span asp-validation-for="Contrasena" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-outline mb-4">
+                            <input asp-for="ConfirmarContrasena" type="password" class="form-control" />
+                            <label asp-for="ConfirmarContrasena" class="form-label"></label>
+                            <span asp-validation-for="ConfirmarContrasena" class="text-danger"></span>
+                        </div>
+
+                        <button type="submit"
+                                class="btn btn-danger btn-block mb-4">
+                            Registrarse
+                        </button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -36,6 +36,42 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5430"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 19 Feb 2025 02:29:46 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Electronics/fotosPerfil/2_Iphone.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fotosPerfil\2_Iphone.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-SAgIGJ/KZdztuhrfp05Kc4UGDmkxjHF3Nkob5AipYPQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"67731"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022SAgIGJ/KZdztuhrfp05Kc4UGDmkxjHF3Nkob5AipYPQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 20 Apr 2025 18:21:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Electronics/fotosPerfil/2_Iphone.w6k293lloo.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fotosPerfil\2_Iphone.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"w6k293lloo"},{"Name":"integrity","Value":"sha256-SAgIGJ/KZdztuhrfp05Kc4UGDmkxjHF3Nkob5AipYPQ="},{"Name":"label","Value":"_content/Electronics/fotosPerfil/2_Iphone.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"67731"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022SAgIGJ/KZdztuhrfp05Kc4UGDmkxjHF3Nkob5AipYPQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 20 Apr 2025 18:21:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Electronics/fotosPerfil/2_macbook.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fotosPerfil\2_macbook.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-aj8Jcv6G5lx6Cqm4XTMaihLoTMQba9mvfboee\u002BPxvtI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"32402"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022aj8Jcv6G5lx6Cqm4XTMaihLoTMQba9mvfboee\u002BPxvtI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 20 Apr 2025 18:22:25 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Electronics/fotosPerfil/2_macbook.qwdsm9jl4h.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fotosPerfil\2_macbook.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qwdsm9jl4h"},{"Name":"integrity","Value":"sha256-aj8Jcv6G5lx6Cqm4XTMaihLoTMQba9mvfboee\u002BPxvtI="},{"Name":"label","Value":"_content/Electronics/fotosPerfil/2_macbook.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"32402"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022aj8Jcv6G5lx6Cqm4XTMaihLoTMQba9mvfboee\u002BPxvtI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 20 Apr 2025 18:22:25 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Electronics/fotosPerfil/2_Tablet.2drcjslgzl.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fotosPerfil\2_Tablet.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2drcjslgzl"},{"Name":"integrity","Value":"sha256-hkgBuZ2nVtkVhUYHMg4PRzmnwxspF32tZnTAZYTaPFY="},{"Name":"label","Value":"_content/Electronics/fotosPerfil/2_Tablet.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"148459"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022hkgBuZ2nVtkVhUYHMg4PRzmnwxspF32tZnTAZYTaPFY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 20 Apr 2025 18:28:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Electronics/fotosPerfil/2_Tablet.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\fotosPerfil\2_Tablet.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hkgBuZ2nVtkVhUYHMg4PRzmnwxspF32tZnTAZYTaPFY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"148459"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022hkgBuZ2nVtkVhUYHMg4PRzmnwxspF32tZnTAZYTaPFY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 20 Apr 2025 18:28:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Electronics/Imagenes/Apple.2hl3hf0qf5.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagenes\Apple.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -100,13 +136,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagenes\Iphone.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-SAgIGJ/KZdztuhrfp05Kc4UGDmkxjHF3Nkob5AipYPQ="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"67731"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022SAgIGJ/KZdztuhrfp05Kc4UGDmkxjHF3Nkob5AipYPQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 20 Apr 2025 16:29:48 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"67731"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022SAgIGJ/KZdztuhrfp05Kc4UGDmkxjHF3Nkob5AipYPQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 20 Apr 2025 18:30:22 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Electronics/Imagenes/Iphone.w6k293lloo.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagenes\Iphone.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"w6k293lloo"},{"Name":"integrity","Value":"sha256-SAgIGJ/KZdztuhrfp05Kc4UGDmkxjHF3Nkob5AipYPQ="},{"Name":"label","Value":"_content/Electronics/Imagenes/Iphone.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"67731"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022SAgIGJ/KZdztuhrfp05Kc4UGDmkxjHF3Nkob5AipYPQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 20 Apr 2025 16:29:48 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"67731"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022SAgIGJ/KZdztuhrfp05Kc4UGDmkxjHF3Nkob5AipYPQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 20 Apr 2025 18:30:22 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Electronics/Imagenes/LogoElectronics.ligaz0x8on.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagenes\LogoElectronics.png'))</AssetFile>
@@ -371,6 +407,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ni9oc2u4po"},{"Name":"integrity","Value":"sha256-0QXAYEArxWnM6X/k4xjt4JulGceX8BBRx8rtHdXLvNY="},{"Name":"label","Value":"_content/Electronics/Imagenes/Productos/Xiaomi watch.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7043"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00220QXAYEArxWnM6X/k4xjt4JulGceX8BBRx8rtHdXLvNY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Mar 2025 20:24:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Electronics/Imagenes/Tablet.2drcjslgzl.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagenes\Tablet.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2drcjslgzl"},{"Name":"integrity","Value":"sha256-hkgBuZ2nVtkVhUYHMg4PRzmnwxspF32tZnTAZYTaPFY="},{"Name":"label","Value":"_content/Electronics/Imagenes/Tablet.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"148459"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022hkgBuZ2nVtkVhUYHMg4PRzmnwxspF32tZnTAZYTaPFY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 20 Apr 2025 16:48:37 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Electronics/Imagenes/Tablet.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagenes\Tablet.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hkgBuZ2nVtkVhUYHMg4PRzmnwxspF32tZnTAZYTaPFY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"148459"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022hkgBuZ2nVtkVhUYHMg4PRzmnwxspF32tZnTAZYTaPFY=\u0022"},{"Name":"Last-Modified","Value":"Sun, 20 Apr 2025 16:48:37 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Electronics/Imagenes/telefono.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Imagenes\telefono.png'))</AssetFile>

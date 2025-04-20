@@ -1,29 +1,88 @@
-﻿@{
-    ViewBag.Title = "Perfil";
+﻿@model Electronics.Models.UsuarioPerfilViewModel
+@{
+    ViewData["Title"] = "Mi Perfil";
 }
 
 <section class="container mt-5">
-    <div class="row">
-        <div class="col-md-4 text-center">
-            <img src="@Url.Content("~/imagenes/perfil.png")" class="img-thumbnail" alt="Foto de perfil" />
-        </div>
-        <div class="col-md-8">
-            <h3>Gestor de Perfil</h3>
-            <form>
+    <h2>@ViewData["Title"]</h2>
+
+    @if (ViewBag.Mensaje != null)
+    {
+        <div class="alert alert-success">@ViewBag.Mensaje</div>
+    }
+
+    <form asp-controller="Usuario"
+          asp-action="Perfil"
+          method="post"
+          enctype="multipart/form-data">
+        @Html.AntiForgeryToken()
+
+        <input type="hidden" asp-for="IdUsuario" />
+        <input type="hidden" asp-for="RutaFotoActual" />
+
+        <div asp-validation-summary="All" class="text-danger mb-3"></div>
+
+        <div class="row">
+            <!-- FOTO -->
+            <div class="col-md-4 text-center">
+                <img src="@Url.Content(Model.RutaFotoActual)"
+                     class="img-thumbnail mb-3"
+                     style="max-width:200px;"
+                     alt="Foto de perfil" />
+
                 <div class="mb-3">
-                    <label for="nombre" class="form-label">Nombre</label>
-                    <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" />
+                    <label asp-for="FotoPerfil" class="form-label"></label>
+                    <input asp-for="FotoPerfil" type="file" class="form-control" />
+                    <span asp-validation-for="FotoPerfil" class="text-danger"></span>
                 </div>
+            </div>
+
+            <!-- DATOS -->
+            <div class="col-md-8">
                 <div class="mb-3">
-                    <label for="apellidos" class="form-label">Apellidos</label>
-                    <input type="text" class="form-control" id="apellidos" placeholder="Ingrese sus apellidos" />
+                    <label asp-for="Nombre" class="form-label"></label>
+                    <input asp-for="Nombre" class="form-control" />
+                    <span asp-validation-for="Nombre" class="text-danger"></span>
                 </div>
+
                 <div class="mb-3">
-                    <label for="foto" class="form-label">Foto</label>
-                    <input type="file" class="form-control" id="foto" />
+                    <label asp-for="PrimerApellido" class="form-label"></label>
+                    <input asp-for="PrimerApellido" class="form-control" />
+                    <span asp-validation-for="PrimerApellido" class="text-danger"></span>
                 </div>
+
+                <div class="mb-3">
+                    <label asp-for="SegundoApellido" class="form-label"></label>
+                    <input asp-for="SegundoApellido" class="form-control" />
+                    <span asp-validation-for="SegundoApellido" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Correo" class="form-label"></label>
+                    <input asp-for="Correo" class="form-control" />
+                    <span asp-validation-for="Correo" class="text-danger"></span>
+                </div>
+
+                <hr />
+
+                <div class="mb-3">
+                    <label asp-for="NuevaContrasena" class="form-label"></label>
+                    <input asp-for="NuevaContrasena" type="password" class="form-control" />
+                    <span asp-validation-for="NuevaContrasena" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="ConfirmarContrasena" class="form-label"></label>
+                    <input asp-for="ConfirmarContrasena" type="password" class="form-control" />
+                    <span asp-validation-for="ConfirmarContrasena" class="text-danger"></span>
+                </div>
+
                 <button type="submit" class="btn btn-danger">Actualizar</button>
-            </form>
+            </div>
         </div>
-    </div>
+    </form>
 </section>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
