@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
 namespace Electronics.Models
-{
+{   //Estructura de Categorias
     public class Categorias
     {
         [Key]

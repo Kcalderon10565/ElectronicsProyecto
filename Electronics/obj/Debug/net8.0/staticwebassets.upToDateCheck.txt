@@ -1,8 +1,11 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\fotosPerfil\1_dogi.jpeg
+wwwroot\fotosPerfil\2_Captura de pantalla 2025-04-20 102041.png
 wwwroot\fotosPerfil\2_Iphone.jpg
 wwwroot\fotosPerfil\2_macbook.jpg
 wwwroot\fotosPerfil\2_Tablet.jpg
+wwwroot\fotosPerfil\3_dogi.jpeg
 wwwroot\Imagenes\Apple.png
 wwwroot\Imagenes\carrito.png
 wwwroot\Imagenes\Circuitos.jpg

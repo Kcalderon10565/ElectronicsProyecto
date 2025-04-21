@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Electronics.csproj": {}
+    "C:\\Users\\kenca\\Source\\Repos\\ElectronicsProyecto\\Electronics\\Electronics.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Electronics.csproj": {
+    "C:\\Users\\kenca\\Source\\Repos\\ElectronicsProyecto\\Electronics\\Electronics.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Electronics.csproj",
+        "projectUniqueName": "C:\\Users\\kenca\\Source\\Repos\\ElectronicsProyecto\\Electronics\\Electronics.csproj",
         "projectName": "Electronics",
-        "projectPath": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Electronics.csproj",
+        "projectPath": "C:\\Users\\kenca\\Source\\Repos\\ElectronicsProyecto\\Electronics\\Electronics.csproj",
         "packagesPath": "C:\\Users\\kenca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\obj\\",
+        "outputPath": "C:\\Users\\kenca\\Source\\Repos\\ElectronicsProyecto\\Electronics\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

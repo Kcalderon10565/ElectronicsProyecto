@@ -2,6 +2,7 @@
 
 namespace Electronics.Models
 {
+    //Modelo de Registro de usuarios, asocia el formulario del registro de los usuarios.
     public class RegisterViewModel
     {
         [Required(ErrorMessage = "El nombre es obligatorio")]

@@ -39,7 +39,12 @@
                                 <p>@producto.Categoria.Nombre</p>
                             </a>
                             <h6 class="mb-3">$@producto.Precio</h6>
-                            <button class="btn btn-danger">Añadir al carrito</button>
+                            <form asp-controller="Carrito" asp-action="Add" method="post" class="d-inline">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="productId" value="@producto.IdProducto" />
+                                <button type="submit" class="btn btn-danger w-100">Añadir al carrito</button>
+                            </form>
+
                         </div>
                     </div>
                 </div>

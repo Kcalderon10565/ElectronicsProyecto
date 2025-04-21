@@ -19,13 +19,14 @@ namespace Electronics.Controllers
                        .Include(p => p.Categoria)
                        .Include(p => p.Imagen);
 
-
+        //Filtra los productos por Categorias.
         private IActionResult FiltrarYMostrar(string nombreCategoria, string viewName)
         {
+            //Nos da la lista filtrada por Categoria
             var lista = QueryBase()
                 .Where(p => p.Categoria.Nombre == nombreCategoria)
                 .ToList();
-
+            //Si el rol es==1, entonces nos permite editar, eliminar o crear un producto nuevo.
             var idRol = HttpContext.Request.Cookies.ContainsKey("IdRol")
                 ? int.Parse(HttpContext.Request.Cookies["IdRol"])
                 : (int?)null;
@@ -35,7 +36,7 @@ namespace Electronics.Controllers
             return View(viewName, lista);
         }
 
-
+        //Señalan a las vistas que nos muestran los productos filtrados por categorias.
         public IActionResult Smartphones() => FiltrarYMostrar("Smartphones", "Smartphones");
         public IActionResult Laptops() => FiltrarYMostrar("Laptops", "Laptops");
         public IActionResult Smartwatch() => FiltrarYMostrar("Smartwatch", "Smartwatch");
@@ -44,7 +45,7 @@ namespace Electronics.Controllers
         public IActionResult Monitores() => FiltrarYMostrar("Monitores", "Monitores");
         public IActionResult Accesorios() => FiltrarYMostrar("Accesorios", "Accesorios");
 
-
+        //Muestra el catalogo completo, el admin edita solamente desde Catalogo.
         public IActionResult Catalogo()
         {
             var productos = _context.Productos
@@ -142,7 +143,7 @@ namespace Electronics.Controllers
                 // Si hay nueva imagen, reemplazar
                 if (imagenArchivo != null && imagenArchivo.Length > 0)
                 {
-                    // Borrar la imagen anterior (si existe)
+                    // Borrar la imagen anterior 
                     if (productoExistente.Imagen != null)
                     {
                         var rutaAnterior = Path.Combine("wwwroot", productoExistente.Imagen.Ruta.TrimStart('/'));

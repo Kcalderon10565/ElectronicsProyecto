@@ -1,22 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kenca\\source\\repos\\Electronics\\",
+  "WorkspaceRootPath": "C:\\Users\\kenca\\source\\repos\\ElectronicsProyecto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|c:\\users\\kenca\\source\\repos\\electronics\\electronics\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|solutionrelative:electronics\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|c:\\users\\kenca\\source\\repos\\electronics\\electronics\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|solutionrelative:electronics\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|c:\\users\\kenca\\source\\repos\\electronics\\electronics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|solutionrelative:electronics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|c:\\users\\kenca\\source\\repos\\electronics\\electronics\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|solutionrelative:electronics\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|c:\\users\\kenca\\source\\repos\\electronicsproyecto\\electronics\\models\\sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06B99F68-F7A0-43EC-A489-DB0476206AA0}|Electronics\\Electronics.csproj|solutionrelative:electronics\\models\\sucursal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,53 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CarritoController.cs",
-              "DocumentMoniker": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Controllers\\CarritoController.cs",
-              "RelativeDocumentMoniker": "Electronics\\Controllers\\CarritoController.cs",
-              "ToolTip": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Controllers\\CarritoController.cs",
-              "RelativeToolTip": "Electronics\\Controllers\\CarritoController.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAAAFMAAAAHAAAAAAAAAA==",
+              "Title": "Sucursal.cs",
+              "DocumentMoniker": "C:\\Users\\kenca\\source\\repos\\ElectronicsProyecto\\Electronics\\Models\\Sucursal.cs",
+              "RelativeDocumentMoniker": "Electronics\\Models\\Sucursal.cs",
+              "ToolTip": "C:\\Users\\kenca\\source\\repos\\ElectronicsProyecto\\Electronics\\Models\\Sucursal.cs",
+              "RelativeToolTip": "Electronics\\Models\\Sucursal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T18:54:42.873Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Electronics\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Electronics\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAADsAAAAAAAAAAAAMwEUAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-20T18:54:20.735Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Program.cs",
-              "RelativeDocumentMoniker": "Electronics\\Program.cs",
-              "ToolTip": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Program.cs",
-              "RelativeToolTip": "Electronics\\Program.cs",
-              "ViewState": "AgIAABcAAAAAuF9OfOEUwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T18:53:53.886Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\appsettings.json",
-              "RelativeDocumentMoniker": "Electronics\\appsettings.json",
-              "ToolTip": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\appsettings.json",
-              "RelativeToolTip": "Electronics\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-20T18:53:51.093Z",
+              "WhenOpened": "2025-04-21T05:18:59.903Z",
               "EditorCaption": ""
             }
           ]

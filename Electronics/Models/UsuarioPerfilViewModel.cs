@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Http;
 
 namespace Electronics.Models
 {
+    //Estructura para registrar un usuario.
     public class UsuarioPerfilViewModel
     {
         [Required]

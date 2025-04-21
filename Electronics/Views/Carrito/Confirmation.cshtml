@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "¡Gracias por tu compra!";
+}
+
+<div class="container py-5">
+    <h2>@ViewData["Title"]</h2>
+
+    <p>Tu pedido se ha creado con éxito.</p>
+    <p>
+        Número de pedido: <strong>@ViewBag.IdPedido</strong>
+    </p>
+
+    <a asp-controller="Home" asp-action="Index" class="btn btn-primary">
+        Volver al inicio
+    </a>
+</div>

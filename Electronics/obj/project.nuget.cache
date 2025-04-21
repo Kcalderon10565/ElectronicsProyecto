@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "noMC5j6VU2E=",
+  "dgSpecHash": "0eVXm4qEGAE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\kenca\\source\\repos\\Electronics\\Electronics\\Electronics.csproj",
+  "projectFilePath": "C:\\Users\\kenca\\Source\\Repos\\ElectronicsProyecto\\Electronics\\Electronics.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kenca\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\kenca\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

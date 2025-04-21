@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 
 namespace Electronics.Models
 {
+    //Representa un producto con sus atributos.
     public class Productos
     {
         [Key]

@@ -12,7 +12,7 @@ namespace Electronics.Controllers
         {
             _logger = logger;
         }
-
+        //Estos métodos nos llevan a las vistas indicadas.
         public IActionResult Index()
         {
             return View();

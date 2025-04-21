@@ -20,7 +20,7 @@ namespace Electronics.Controllers
             _context = context;
             _env = env;
         }
-
+        //Se utilizan para almacenar las cookies e identificar al usuario con la sesión activa.
         // GET: /Usuario/Login
         [HttpGet]
         public IActionResult Login()
@@ -29,7 +29,7 @@ namespace Electronics.Controllers
                 return RedirectToAction("Index", "Home");
             return View();
         }
-
+        //Se inicia sesión con correo y contraseña, se mantiene la sesión activa por 2 horas
         // POST: /Usuario/Login
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -51,11 +51,12 @@ namespace Electronics.Controllers
 
                 return RedirectToAction("Index", "Home");
             }
-
+            //si los datos no coinciden con los de la base de datos de muestra el mensaje.
             ViewBag.Error = "Credenciales inválidas";
             return View();
         }
 
+        //Con el siguiente método se cierra sesión del usuario conectado.
         // GET: /Usuario/Logout
         [HttpGet]
         public IActionResult Logout()
@@ -65,7 +66,8 @@ namespace Electronics.Controllers
             Response.Cookies.Delete("IdRol");
             return RedirectToAction("Index", "Home");
         }
-
+        //Con el siguiente método accedemos al perfil, en donde nos extrae los datos
+        //del usuarion con el que ingresamos para poder realizar una actualización.
         // GET: /Usuario/Perfil
         [HttpGet]
         public IActionResult Perfil()
@@ -119,7 +121,7 @@ namespace Electronics.Controllers
             u.Segundo_Apellido = vm.SegundoApellido;
             u.Correo = vm.Correo;
 
-            // 2) Cambiar contraseña si se proporcionó
+            // 2) Cambiar contraseña
             if (!string.IsNullOrWhiteSpace(vm.NuevaContrasena))
                 u.Contrasena = vm.NuevaContrasena;
 
@@ -156,10 +158,12 @@ namespace Electronics.Controllers
             };
             Response.Cookies.Append("NombreUsuario", u.Nombre, opts);
 
-            // 5) PRG para evitar repost y mostrar mensaje
+            // 5) Muestra mensaje de exito
             TempData["Mensaje"] = "Perfil actualizado correctamente";
             return RedirectToAction("Perfil");
         }
+
+        //Con el siguiente método un usuario puede registrarse.
         [HttpGet]
         public IActionResult Register()
         {

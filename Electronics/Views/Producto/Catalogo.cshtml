@@ -4,10 +4,10 @@
     <div class="text-center container py-5">
         <h4 class="mt-4 mb-5"><strong>Catálogo de Productos</strong></h4>
 
-        @if (ViewBag.EsAdmin != null && ViewBag.EsAdmin == true)
+        @if (ViewBag.EsAdmin == true)
         {
             <div class="mb-4 text-start">
-                <a href="@Url.Action("Crear", "Producto")" class="btn btn-success">Agregar Nuevo Producto</a>
+                <a asp-action="Crear" asp-controller="Producto" class="btn btn-success">Agregar Nuevo Producto</a>
             </div>
         }
 
@@ -19,7 +19,7 @@
                         <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
                              style="height: 200px; display: flex; align-items: center; justify-content: center; background-color: #fff;"
                              data-mdb-ripple-color="light">
-                            <img src="@Url.Content(producto.Imagen != null ? producto.Imagen.Ruta : "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/belt.webp")"
+                            <img src="@Url.Content(producto.Imagen?.Ruta ?? "https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/belt.webp")"
                                  alt="@producto.Nombre"
                                  style="max-height: 100%; object-fit: contain;" />
                         </div>
@@ -32,13 +32,19 @@
                             </div>
 
                             <div>
-                                <button class="btn btn-danger w-100 mb-2">Añadir al carrito</button>
+                                <form asp-controller="Carrito" asp-action="Add" method="post">
+                                    @Html.AntiForgeryToken()
+                                    <input type="hidden" name="productId" value="@producto.IdProducto" />
+                                    <button type="submit" class="btn btn-danger w-100 mb-2">Añadir al carrito</button>
+                                </form>
 
-                                @if (ViewBag.EsAdmin != null && ViewBag.EsAdmin == true)
+                                @if (ViewBag.EsAdmin == true)
                                 {
                                     <div class="d-flex justify-content-between">
-                                        <a class="btn btn-warning btn-sm w-50 me-1" href="@Url.Action("Editar", "Producto", new { id = producto.IdProducto })">Editar</a>
-                                        <a class="btn btn-danger btn-sm w-50 ms-1" href="@Url.Action("Eliminar", "Producto", new { id = producto.IdProducto })">Eliminar</a>
+                                        <a asp-action="Editar" asp-controller="Producto" asp-route-id="@producto.IdProducto"
+                                           class="btn btn-warning btn-sm w-50 me-1">Editar</a>
+                                        <a asp-action="Eliminar" asp-controller="Producto" asp-route-id="@producto.IdProducto"
+                                           class="btn btn-danger btn-sm w-50 ms-1">Eliminar</a>
                                     </div>
                                 }
                             </div>

@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Electronics.Models
 {
+    //Estructura de Usuarios.
     public class Usuario
     {
         [Key]

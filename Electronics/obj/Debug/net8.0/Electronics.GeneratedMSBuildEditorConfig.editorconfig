@@ -17,105 +17,113 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Electronics
 build_property.RootNamespace = Electronics
-build_property.ProjectDir = C:\Users\kenca\source\repos\Electronics\Electronics\
+build_property.ProjectDir = C:\Users\kenca\Source\Repos\ElectronicsProyecto\Electronics\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\kenca\source\repos\Electronics\Electronics
+build_property.MSBuildProjectDirectory = C:\Users\kenca\Source\Repos\ElectronicsProyecto\Electronics
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/kenca/source/repos/Electronics/Electronics/Views/Carrito/Agregar.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b1xBZ3JlZ2FyLmNzaHRtbA==
+[C:/Users/kenca/Source/Repos/ElectronicsProyecto/Electronics/Views/Carrito/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b1xDaGVja291dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kenca/source/repos/Electronics/Electronics/Views/Home/Contactenos.cshtml]
+[C:/Users/kenca/Source/Repos/ElectronicsProyecto/Electronics/Views/Carrito/Confirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b1xDb25maXJtYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kenca/Source/Repos/ElectronicsProyecto/Electronics/Views/Carrito/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kenca/Source/Repos/ElectronicsProyecto/Electronics/Views/Home/Contactenos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0ZW5vcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kenca/source/repos/Electronics/Electronics/Views/Home/Index.cshtml]
+[C:/Users/kenca/Source/Repos/ElectronicsProyecto/Electronics/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kenca/source/repos/Electronics/Electronics/Views/Home/Privacy.cshtml]
+[C:/Users/kenca/Source/Repos/ElectronicsProyecto/Electronics/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kenca/source/repos/Electronics/Electronics/Views/Home/SobreNosotros.cshtml]
+[C:/Users/kenca/Source/Repos/ElectronicsProyecto/Electronics/Views/Home/SobreNosotros.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTb2JyZU5vc290cm9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kenca/source/repos/Electronics/Electronics/Views/Home/Ubicaciones.cshtml]
+[C:/Users/kenca/Source/Repos/ElectronicsProyecto/Electronics/Views/Home/Ubicaciones.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVYmljYWNpb25lcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kenca/source/repos/Electronics/Electronics/Views/Producto/Accesorios.cshtml]
+[C:/Users/kenca/Source/Repos/ElectronicsProyecto/Electronics/Views/Producto/Accesorios.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cQWNjZXNvcmlvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kenca/source/repos/Electronics/Electronics/Views/Producto/Audifonos.cshtml]
+[C:/Users/kenca/Source/Repos/ElectronicsProyecto/Electronics/Views/Producto/Audifonos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cQXVkaWZvbm9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kenca/source/repos/Electronics/Electronics/Views/Producto/Catalogo.cshtml]
+[C:/Users/kenca/Source/Repos/ElectronicsProyecto/Electronics/Views/Producto/Catalogo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cQ2F0YWxvZ28uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kenca/source/repos/Electronics/Electronics/Views/Producto/Formulario.cshtml]
+[C:/Users/kenca/Source/Repos/ElectronicsProyecto/Electronics/Views/Producto/Formulario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cRm9ybXVsYXJpby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kenca/source/repos/Electronics/Electronics/Views/Producto/Laptops.cshtml]
+[C:/Users/kenca/Source/Repos/ElectronicsProyecto/Electronics/Views/Producto/Laptops.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cTGFwdG9wcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kenca/source/repos/Electronics/Electronics/Views/Producto/Monitores.cshtml]
+[C:/Users/kenca/Source/Repos/ElectronicsProyecto/Electronics/Views/Producto/Monitores.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cTW9uaXRvcmVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kenca/source/repos/Electronics/Electronics/Views/Producto/Smartphones.cshtml]
+[C:/Users/kenca/Source/Repos/ElectronicsProyecto/Electronics/Views/Producto/Smartphones.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cU21hcnRwaG9uZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kenca/source/repos/Electronics/Electronics/Views/Producto/Smartwatch.cshtml]
+[C:/Users/kenca/Source/Repos/ElectronicsProyecto/Electronics/Views/Producto/Smartwatch.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cU21hcnR3YXRjaC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kenca/source/repos/Electronics/Electronics/Views/Producto/Tablets.cshtml]
+[C:/Users/kenca/Source/Repos/ElectronicsProyecto/Electronics/Views/Producto/Tablets.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cVGFibGV0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kenca/source/repos/Electronics/Electronics/Views/Shared/Error.cshtml]
+[C:/Users/kenca/Source/Repos/ElectronicsProyecto/Electronics/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kenca/source/repos/Electronics/Electronics/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/kenca/Source/Repos/ElectronicsProyecto/Electronics/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kenca/source/repos/Electronics/Electronics/Views/Usuario/Login.cshtml]
+[C:/Users/kenca/Source/Repos/ElectronicsProyecto/Electronics/Views/Usuario/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kenca/source/repos/Electronics/Electronics/Views/Usuario/Perfil.cshtml]
+[C:/Users/kenca/Source/Repos/ElectronicsProyecto/Electronics/Views/Usuario/Perfil.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xQZXJmaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kenca/source/repos/Electronics/Electronics/Views/Usuario/Register.cshtml]
+[C:/Users/kenca/Source/Repos/ElectronicsProyecto/Electronics/Views/Usuario/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kenca/source/repos/Electronics/Electronics/Views/_ViewImports.cshtml]
+[C:/Users/kenca/Source/Repos/ElectronicsProyecto/Electronics/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kenca/source/repos/Electronics/Electronics/Views/_ViewStart.cshtml]
+[C:/Users/kenca/Source/Repos/ElectronicsProyecto/Electronics/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kenca/source/repos/Electronics/Electronics/Views/Shared/_Layout.cshtml]
+[C:/Users/kenca/Source/Repos/ElectronicsProyecto/Electronics/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-zp2ytdgxg1

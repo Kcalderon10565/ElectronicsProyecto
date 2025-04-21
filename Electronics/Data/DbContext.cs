@@ -3,12 +3,14 @@ using Microsoft.EntityFrameworkCore;
 
 
 namespace Electronics.Models
+
 {
     public class ElectronicsContext : DbContext
     {
         public ElectronicsContext(DbContextOptions<ElectronicsContext> options)
             : base(options)
         { }
+        //Tablas de la base de datos
         public DbSet<Rol> Rol { get; set; }
 
         public DbSet<Usuario> Usuarios { get; set; }
@@ -16,13 +18,18 @@ namespace Electronics.Models
         public DbSet<Productos> Productos { get; set; }
         public DbSet<Categorias> Categorias { get; set; }
         public DbSet<Imagenes> Imagenes { get; set; }
+        public DbSet<Carrito> Carritos { get; set; }
+
+        public DbSet<Pedido> Pedidos { get; set; }
+        public DbSet<Sucursal> Sucursales { get; set; }
+
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
-
+            //Asocia las categorias de la base de datos.
             modelBuilder.Entity<Categorias>().HasData(
                 new Categorias { IdCategoria = 1, Nombre = "Smartphones" },
                 new Categorias { IdCategoria = 2, Nombre = "Laptops" },
@@ -57,7 +64,7 @@ namespace Electronics.Models
 
             modelBuilder.Entity<Productos>().HasData(productosList);
         }
-
+        //Obtiene el nombre de la Categoria por su Id.
         private string GetNombreCategoria(int idCategoria)
         {
             return idCategoria switch

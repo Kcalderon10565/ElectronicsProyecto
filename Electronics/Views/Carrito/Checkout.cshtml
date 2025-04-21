@@ -1,0 +1,74 @@
+﻿@model Electronics.Models.CheckoutViewModel
+@using Electronics.Models
+
+<h2>Checkout</h2>
+<hr />
+
+<div class="row">
+    <!-- Aquí se reenlistar el carrito-->
+
+    <div class="col-lg-5">
+        <div class="card bg-light p-4">
+            <h5>Detalles de Pago</h5>
+            <form asp-controller="Carrito" asp-action="Checkout" method="post">
+                @Html.AntiForgeryToken()
+
+                <!-- Se muestran los errores -->
+                <div asp-validation-summary="All" class="text-danger mb-3"></div>
+
+                <input type="hidden" asp-for="Total" />
+
+                <!-- Nombre -->
+                <div class="mb-3">
+                    <label asp-for="NombreCompleto" class="form-label"></label>
+                    <input asp-for="NombreCompleto" class="form-control" />
+                    <span asp-validation-for="NombreCompleto" class="text-danger"></span>
+                </div>
+
+                <!-- Número de Tarjeta (16 dígitos) -->
+                <div class="mb-3">
+                    <label asp-for="NumeroTarjeta" class="form-label"></label>
+                    <input asp-for="NumeroTarjeta"
+                           class="form-control"
+                           maxlength="16"
+                           pattern="\d{16}"
+                           placeholder="1234567812345678" />
+                    <span asp-validation-for="NumeroTarjeta" class="text-danger"></span>
+                </div>
+
+                <div class="row">
+                    <!-- Fecha de Vencimiento -->
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="FechaVencimiento" class="form-label"></label>
+                        <input asp-for="FechaVencimiento"
+                               class="form-control"
+                               maxlength="7"
+                               pattern="(0[1-9]|1[0-2])\/\d{4}"
+                               placeholder="MM/YYYY" />
+                        <span asp-validation-for="FechaVencimiento" class="text-danger"></span>
+                    </div>
+
+                    <!-- CCV (3 dígitos) -->
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="CCV" class="form-label"></label>
+                        <input asp-for="CCV"
+                               class="form-control"
+                               maxlength="3"
+                               pattern="\d{3}"
+                               placeholder="123" />
+                        <span asp-validation-for="CCV" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-between align-items-center">
+                    <h4>Total: @Model.Total.ToString("C")</h4>
+                    <button type="submit" class="btn btn-danger">PAGAR</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

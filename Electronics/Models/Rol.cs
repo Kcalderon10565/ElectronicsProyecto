@@ -2,6 +2,7 @@
 
 namespace Electronics.Models
 {
+    //Representa la estructura de Rol.
     public class Rol
     {
         [Key]
